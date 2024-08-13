@@ -13,7 +13,6 @@ const PageWrapper = ({ state, children }) => {
     window.scrollTo(0, 0);
     dispatch(setAppState(state));
   }, [state, dispatch]);
-  console.log(state);
 
   return children;
 };
