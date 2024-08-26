@@ -66,6 +66,7 @@ const MediaList = () => {
     mediaCategories,
     dispatch,
   ]);
+  
 
   const onCategoryChange = (categoryIndex) => {
     if (currCategory === categoryIndex) return;
